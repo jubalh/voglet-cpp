@@ -1,0 +1,57 @@
+object frmVokabel: TfrmVokabel
+  Left = 0
+  Top = 0
+  AlphaBlend = True
+  AlphaBlendValue = 200
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsNone
+  Caption = 'Vokabel'
+  ClientHeight = 105
+  ClientWidth = 399
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClick = FormClick
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblWord: TLabel
+    Left = 40
+    Top = 32
+    Width = 63
+    Height = 19
+    Caption = 'lblWord'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblTranslation: TLabel
+    Left = 40
+    Top = 51
+    Width = 113
+    Height = 19
+    Caption = 'lblTranslation'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btnShow: TButton
+    Left = 316
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Show'
+    TabOrder = 0
+    OnClick = btnShowClick
+  end
+end
